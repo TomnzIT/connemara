@@ -29,7 +29,12 @@ To start the server, run the `server.py` script:
 python server.py
 ```
 
-To start the client, run the `client.py` script on the victim machine:
+To start the client, run the `client.pyw` script on the victim machine:
 ```sh
-python client.py
+python client.pyw
+```
+To transform the client script into a executable file:
+```sh
+pip install pyinstaller
+pyinstaller client.pyw --onefile
 ```
